@@ -20,9 +20,47 @@
         <span>Esta es una etiqueta Span</span>
         <strong>Esta es la etiqueta Strong</strong>
         <b>Esta es la etiqueta B</b>
-        <a href="https://www.netflix.com/mx/title/80057281" target="_blank">Esta es la etiqueta A</a>
-        <!-- Ejemplo -->
+        <a href="https://www.netflix.com/mx/title/80057281" target="_self">Esta es la etiqueta A</a>
+        <!-- Ejemplo de texto-->
         <p> Podría argumentarse que <span >Stranger Things de Netflix</span> es, en espíritu, como una secuela de E. T., una mescolanza de ciencia ficción spielberguiana mezclada con motivos del <b>horror ochentero</b>. Y, como E. T., parecía no necesitar una secuela. Pero ya está aquí la segunda temporada.</p>
+        <!-- Listas -->
+        <!-- ul lista desordenada -->
+        <ul>
+            <li>Este es el pimer punto</li>
+            <li>Este es el segundo punto</li>
+            <li>Este es el tercer punto</li>
+            <li>Este es el cuarto punto</li>
+            <ol>
+                <li>Subtema uno</li>
+                <li>Subtema dos</li>
+                <li>Subtema tres</li>
+            </ol>
+        </ul>
+        <!-- ol lista ordenada -->
+        <ol>
+            <li><h3>Este es el pimer punto</h3></li>
+            <li><p>Este es el segundo punto</p></li>
+            <li><h3>Este es el tercer punto</h3></li>
+            <li><h3>Este es el cuarto punto</h3></li>
+            <li><a href="">Este es el quinto punto</a></li>
+        </ol>
+        <!-- Formularios -->
+        <form>
+            <label for='nombre'>Nombre:</label>
+            <input type='text' placeholder="Ingresa tu nombre" name='nombre' id='nombre'>
+            <br>
+            <label for='telefono'>Telefono:</label>
+            <input type='number' placeholder="Ingresa tu telefono" name="telefono" id='telefono'>
+            <br>
+            <label for='email'>Email:</label>
+            <input type='email' placeholder="Ingresa tu email" name="email" id='email'>
+            <br>
+            <input type='file' name='archivo' accept="image/png, image/jpg">
+            <br>
+            <textarea rows='5' cols='50' name='comentario' placeholder="Dejanos tu comentario"></textarea>
+            <br>
+            <input type='submit' name='submit'>
+        </form>
 
     </body>
 </html>
