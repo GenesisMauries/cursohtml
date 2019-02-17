@@ -8,6 +8,8 @@ Es un lenguaje de etiqueta de hipertexto(Maquetar y etiquetar) 'No tiene nada de
 El navegador necesita cierta estructura:
 - header, body, footer.
 
+- El atributo lang indica el idioma
+
 Visual estudio es mas rápido, estable, cuenta con diversos pluggins y es fácil.
 
 - Siempre abrir y cerrar las etiquetas, por buena practica y productividad.
@@ -33,9 +35,21 @@ Visual estudio es mas rápido, estable, cuenta con diversos pluggins y es fácil
 - Usar los type de los input ayuda a validar la información.
 - Para garantizar la calidad de la informacion utilizar el atributo type correctamente.
 - Atributo accept ayuda a limitar los tipos de archivo que se subiran.
+- required ayuda a que el formulario no sea enviado sin informacion.
+- acction indica a que servidor sera enviado, es un atributo va en el form.
 
 ##### TextArea
 - El atributo rols y cols sirve para el tamaño que ocupara el textarea mediante la cantidad de caracteres.
+##### Select
+- Lista de valores definidos
+- disabled deshabilita la opción que contiene lo contiene.
+- selected genera una opcion por default
+- Value es el valor que tendra la opcion elegida
+##### Radio 
+- Sirve para una seleccion.
+##### Checkbox
+- Sirve para seleccion multiple.
+- checked sirve para seleccion un checkbox por default.
 ### RECOMENDACION PARA SEO
 - El title no debe llevar mas de 55 caracteres.
 - Siempre en el header va menu de navegación.

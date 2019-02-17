@@ -1,9 +1,10 @@
 
-<html>
+<html lang="es-mx">
     <head>
         <title>Stranger</title>
         <!-- Meta para codificacion de caracteres especiales -->
         <meta charset="utf-8"/> 
+        
     </head>
     <body>
         <header>
@@ -20,7 +21,7 @@
         <span>Esta es una etiqueta Span</span>
         <strong>Esta es la etiqueta Strong</strong>
         <b>Esta es la etiqueta B</b>
-        <a href="https://www.netflix.com/mx/title/80057281" target="_self">Esta es la etiqueta A</a>
+        <a href="https://www.netflix.com/mx/title/80057281" target="_blank">Esta es la etiqueta A</a>
         <!-- Ejemplo de texto-->
         <p> Podría argumentarse que <span >Stranger Things de Netflix</span> es, en espíritu, como una secuela de E. T., una mescolanza de ciencia ficción spielberguiana mezclada con motivos del <b>horror ochentero</b>. Y, como E. T., parecía no necesitar una secuela. Pero ya está aquí la segunda temporada.</p>
         <!-- Listas -->
@@ -45,22 +46,93 @@
             <li><a href="">Este es el quinto punto</a></li>
         </ol>
         <!-- Formularios -->
-        <form>
+        <form action="registro.php">
             <label for='nombre'>Nombre:</label>
-            <input type='text' placeholder="Ingresa tu nombre" name='nombre' id='nombre'>
+            <input type='text' placeholder="Ingresa tu nombre" name='nombre' id='nombre' required>
             <br>
             <label for='telefono'>Telefono:</label>
-            <input type='number' placeholder="Ingresa tu telefono" name="telefono" id='telefono'>
+            <input type='number' placeholder="Ingresa tu telefono" name="telefono" id='telefono' required>
             <br>
             <label for='email'>Email:</label>
-            <input type='email' placeholder="Ingresa tu email" name="email" id='email'>
+            <input type='email' placeholder="Ingresa tu email" name="email" id='email' required>
             <br>
-            <input type='file' name='archivo' accept="image/png, image/jpg">
+            <input type='file' name='archivo' accept="image/png, image/jpg" required>
             <br>
-            <textarea rows='5' cols='50' name='comentario' placeholder="Dejanos tu comentario"></textarea>
+            <textarea rows='5' cols='50' name='comentario' placeholder="Dejanos tu comentario" required></textarea>
+            <br>
+            <select name='genero'>
+                <option disabled selected>Elige una opción</option>
+                <option value=1>Masculino</option>
+                <option value=2 >Femenino</option>
+            </select>
+            <br>
+            <input type='radio' name='genero' value='femenino'>Femenino
+            <br>
+            <input type='radio' name='genero' value='masculino'>Masculino
+            <br>
+            <label>Marca del auto:</label>
+            <br>
+            <input type='checkbox' name='auto1' value='nissan' >Nissan
+            <br>
+            <input type="checkbox" name='auto2' value='audi'>Audi 
+            <br>
+            <input type="checkbox" name='auto3' value='ford'>Ford
             <br>
             <input type='submit' name='submit'>
+            <br>
         </form>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Email</th>
+                <th>Delegacion</th>
+                <th>Telefono</th>
+                
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>Genesis</td>
+                <td>Mauries</td>
+                <td><a href='mailto:genesis@hotmail.com'>genesis@hotmail.com</a></td>
+                <td>Coyoacan</td>
+                <td><a href='tel:56581111'>56581111</a>></td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Maria</td>
+                <td>Pineda</td>
+                <td><a href='mailto:maria@hotmail.com'>maria@hotmail.com<a/></td>
+                <td>Xochimilco</td>
+                <td><a href="tel:65954525">65954525</a>></td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>Eduardo</td>
+                <td>Morales</td>
+                <td><a href="mailto:'eduardo@hotmail.com'">eduardo@hotmail.com</a></td>
+                <td>Gustavo A Madero</td>
+                <td><a href="tel:36323539">36323539</a></td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>Pedro</td>
+                <td>Sola</td>
+                <td><a href="mailto:pedro@hotmail.com">pedro@hotmail.com</a></td>
+                <td>Benito Juarez</td>
+                <td><a href="tel:75859565">75859565</a></td>
+
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>Daniel</td>
+                <td>Gonzalez</td>
+                <td><a href="mailto:daniel@hotmail.com">daniel@hotmail.com</a></td>
+                <td>Cuahutemoc</td>
+                <td><a href="tel:15457505">15457505</a>></td>
+            </tr>
+        </table>
 
     </body>
 </html>
