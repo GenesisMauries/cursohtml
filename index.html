@@ -4,7 +4,32 @@
         <title>Stranger</title>
         <!-- Meta para codificacion de caracteres especiales -->
         <meta charset="utf-8"/> 
-        
+        <style>
+            table{
+                margin: 0 auto;
+            }
+            th{
+                border: 1px solid black;
+            }
+            .first-row{
+                background-color: greenyellow;
+            }
+            .blue{
+                background-color: aqua;
+            }
+            .orange{
+                background-color: orangered;
+            }
+            .pink{
+                background-color: pink;
+            }
+            .gray{
+                background-color: gray;
+            }
+            .violet{
+                background-color: blueviolet;
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -81,17 +106,18 @@
             <input type='submit' name='submit'>
             <br>
         </form>
-        <table>
-            <tr>
+        <!-- Tablas -->
+        <table style='width: 50%; border: solid black;'>
+            <tr class='first-row'>
                 <th>ID</th>
-                <th>Nombre</th>
+                <th >Nombre</th>
                 <th>Apellido</th>
                 <th>Email</th>
                 <th>Delegacion</th>
                 <th>Telefono</th>
                 
             </tr>
-            <tr>
+            <tr class= 'blue'>
                 <td>01</td>
                 <td>Genesis</td>
                 <td>Mauries</td>
@@ -99,7 +125,7 @@
                 <td>Coyoacan</td>
                 <td><a href='tel:56581111'>56581111</a></td>
             </tr>
-            <tr>
+            <tr class= 'pink'>
                 <td>02</td>
                 <td>Maria</td>
                 <td>Pineda</td>
@@ -107,7 +133,7 @@
                 <td>Xochimilco</td>
                 <td><a href="tel:65954525">65954525</a></td>
             </tr>
-            <tr>
+            <tr class='gray'>
                 <td>03</td>
                 <td>Eduardo</td>
                 <td>Morales</td>
@@ -115,7 +141,7 @@
                 <td>Gustavo A Madero</td>
                 <td><a href="tel:36323539">36323539</a></td>
             </tr>
-            <tr>
+            <tr  class='orange'>
                 <td>04</td>
                 <td>Pedro</td>
                 <td>Sola</td>
@@ -124,8 +150,8 @@
                 <td><a href="tel:75859565">75859565</a></td>
 
             </tr>
-            <tr>
-                <td>05</td>
+            <tr class='violet'>
+                <td >05</td>
                 <td>Daniel</td>
                 <td>Gonzalez</td>
                 <td><a href="mailto:daniel@hotmail.com">daniel@hotmail.com</a></td>
@@ -133,6 +159,5 @@
                 <td><a href="tel:15457505">15457505</a></td>
             </tr>
         </table>
-
     </body>
 </html>

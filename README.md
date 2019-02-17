@@ -12,6 +12,8 @@ El navegador necesita cierta estructura:
 
 Visual estudio es mas rápido, estable, cuenta con diversos pluggins y es fácil.
 
+> WAKA TIME
+
 - Siempre abrir y cerrar las etiquetas, por buena practica y productividad.
 
 - Lo que esta en body es lo que vera el usuario.
@@ -55,4 +57,3 @@ Visual estudio es mas rápido, estable, cuenta con diversos pluggins y es fácil
 - Siempre en el header va menu de navegación.
 - Carpeta de imagenes debe llamarse img o images.
 - Solo poner un h1 y no rebasar el h5 por compatibilidad en navegadores.
--
