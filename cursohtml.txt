@@ -1,0 +1,24 @@
+HTML 17-02-19 
+
+Wifi: 2182299978
+
+Es un lenguaje de etiqueta de hipertexto(Maquetar y etiquetar) 'No tiene nada de programacion'
+
+El navegador necesita cierta estructura:
+-header, body, footer.
+
+Visual estudio es mas rápido, estable, cuenta con diversos pluggins y es fácil.
+
+-Siempre abrir y cerrar las etiquetas, por buena practica y productividad.
+
+-Lo que esta en body es lo que vera el usuario.
+
+-Patallas de retina tienen buena resolucion por ello es recomendable tenerla al doble el ancho de pixelaje pues el navegador comprime las imagenes.
+
+-Es mejor utilizar el ancho en diseño responsivo.
+
+*RECOMENDACION PARA SEO
+-El title no debe llevar mas de 55 caracteres.
+-Siempre en el header va menu de navegación.
+-Carpeta de imagenes debe llamarse img o images.
+-Solo poner un h1 y no rebasar el h5 por compatibilidad en navegadores.
